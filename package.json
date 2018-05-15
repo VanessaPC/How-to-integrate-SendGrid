@@ -1,0 +1,8 @@
+{
+  "name": "sendgrid-integration",
+  "version": "1.0.0",
+  "description": "My explanation about sendgrid integrations",
+  "dependencies": {
+    "@sendgrid/client": "^6.2.1"
+  }
+}
