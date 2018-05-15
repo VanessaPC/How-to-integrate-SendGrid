@@ -134,11 +134,12 @@ export function send_welcome_email(email) {
 ```
 
 ## Set up Settings and filters for tracking
-One of the points I chose to use Sendgrid as opposed to Mailchimp it's because it allows you to configure settings and options.
-In this case I am checking whether the use tracks the clicks and and the google analytics. There are a few other settings you are able
+
+One of the reasons I chose to use Sendgrid as opposed to Mailchimp is because it allows you to configure settings and options.
+In this case I am checking whether the user tracks the clicks and the google analytics. There are a few other settings you are able
 to set up, for that you should follow this link and discover the documentation and add the options to in the object.
 
-documentation url : https://sendgrid.api-docs.io/v3.0/contacts-api-custom-fields
+Documentation url: https://sendgrid.api-docs.io/v3.0/contacts-api-custom-fields
 
 ```javascript
 // Setting tracking email here:
@@ -174,8 +175,9 @@ const dataTrackingSettings = {
 ```
 
 ## Call your functions
-This will be called then from "authentication/yourAuthentication.js". As you could have figured since we were exporting this functions.
+
+This will be called then from `authentication/yourAuthentication.js`. As you could have figured since we were exporting this functions.
 
 For more information and documentaion, read their docs. This is meant to help put together some simple scripting with their version 3 (v3) of their documentation.
 
-For the complete code go to "sendgrid/sendgrid.js".
+For the complete code go to `sendgrid/sendgrid.js`.
